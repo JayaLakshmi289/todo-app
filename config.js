@@ -1,8 +1,8 @@
 const config = {};
 
-config.host = process.env.HOST || "https://test-db-cosmos.documents.azure.com:443/";
+config.host = process.env.HOST || "https://test-cosmosdb5.documents.azure.com:443/";
 config.authKey =
-  process.env.AUTH_KEY || "rKQNXPVBg1Jeoki7tBy2kekrcltOE9nMGoSdgVIJrRPzSw8Wa0tmdHe3NlGCVYmZva4oekXxIAI5ACDblXvSNg==";
+  process.env.AUTH_KEY || "POBVFbTt9Zp0E4sHYQ2UkDeUQJeqVfu3MQKhBH782KS7z4AtdQIEocvf7aM7g09j0uMZwphgmfpCACDbSc4z6g==";
 config.databaseId = "ToDoList";
 config.containerId = "Items";
 
